@@ -20,6 +20,6 @@
 eventAssetPrecompileStart = { assetConfig ->
     def config = config.grails.assets.plugin.'material-design-iconic-font'
     if (!config.excludes) {
-        config.excludes = ['material-design-iconic-font/*.less']
+        config.excludes = ['material-design-iconic-font/*.less', 'material-design-iconic-font/**/*.less']
     }
 }
