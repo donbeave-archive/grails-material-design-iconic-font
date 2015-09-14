@@ -105,4 +105,4 @@ Material Design Iconic Font files:
 http://zavoloklom.github.io/material-design-iconic-font/license.html (Font: SIL OFL 1.1, CSS: MIT License)
 ```
 
-[Alexey Zhokhov]: http://www.zhokhov.com
+[zhokhov]: http://www.zhokhov.com
