@@ -97,12 +97,12 @@ Copyright and License
 
 material-design-iconic-font plugin:
 
-Copyright 2015 [Alexey Zhokhov][zhokhov] under the [Apache License, Version 2.0](LICENSE).
+Copyright 2015 [Alexey Zhokhov][zhokhov] under the [Apache License, Version 2.0](LICENSE). Supported by [AZ][zhokhov].
+
+[zhokhov]: http://www.zhokhov.com
 
 Material Design Iconic Font files:
 
 ```
 http://zavoloklom.github.io/material-design-iconic-font/license.html (Font: SIL OFL 1.1, CSS: MIT License)
 ```
-
-[zhokhov]: http://www.zhokhov.com
