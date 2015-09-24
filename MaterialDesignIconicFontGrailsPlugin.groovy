@@ -14,18 +14,35 @@
  * limitations under the License.
  */
 
+/**
+ * @author <a href='mailto:donbeave@gmail.com'>Alexey Zhokhov</a>
+ */
 class MaterialDesignIconicFontGrailsPlugin {
-    def version = '1.1.1.1'
+
+    def version = '2.1.2'
     def grailsVersion = '2.0 > *'
+
+    def pluginExcludes = [
+            'grails-app/views/error.gsp'
+    ]
+
     def title = 'Material Design Iconic Font Plugin'
+    def author = 'Alexey Zhokhov'
+    def authorEmail = 'donbeave@gmail.com'
     def description = '''\
 Material Design Iconic Font is a full suite of material design icons (created and maintained by Google) for easy scalable vector graphics on websites.
 '''
+
     def documentation = 'https://github.com/donbeave/grails-material-design-iconic-font'
+
     def license = 'APACHE'
+
     def developers = [
             [name: 'Alexey Zhokhov', email: 'donbeave@gmail.com']
     ]
-    def issueManagement = [url: 'https://github.com/donbeave/grails-material-design-iconic-font/issues']
+
+    def issueManagement = [system: 'GITHUB',
+                           url   : 'https://github.com/donbeave/grails-material-design-iconic-font/issue']
     def scm = [url: 'https://github.com/donbeave/grails-material-design-iconic-font']
+
 }
